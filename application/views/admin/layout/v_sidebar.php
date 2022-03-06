@@ -1,5 +1,5 @@
-<!-- BEGIN MENUBAR-->
-<div id="menubar" class="menubar-inverse ">
+			<!-- BEGIN MENUBAR-->
+			<div id="menubar" class="menubar-inverse ">
 				<div class="menubar-fixed-panel">
 					<div>
 						<a class="btn btn-icon-toggle btn-default menubar-toggle" data-toggle="menubar" href="javascript:void(0);">
@@ -23,7 +23,7 @@
 						<!-- END DASHBOARD -->
 
 						<li>
-							<a href="<?php echo base_url().'admin/pengguna'?>" class="active">
+							<a href="<?php echo base_url().'admin/pengguna'?>" >
 								<div class="gui-icon"><i class="fa fa-user"></i></div>
 								<span class="title">Pengguna</span>
 							</a>
@@ -71,6 +71,13 @@
 							</a>
 						</li>
 
+						<li>
+							<a href="<?php echo base_url().'admin/kategori'?>">
+								<div class="gui-icon"><i class="fa fa-cutlery"></i></div>
+								<span class="title">Kategori</span>
+							</a>
+						</li>
+
 						<!-- BEGIN EMAIL -->
 						<li class="gui-folder">
 							<a>
@@ -90,7 +97,7 @@
 
 					<div class="menubar-foot-panel">
 						<small class="no-linebreak hidden-folded">
-							<span class="opacity-75">&copy; <?php echo '2017';?></span> <strong>Mfikri.com</strong>
+							<span class="opacity-75">&copy; <?php echo date('Y');?></span> <strong>Ismi Azis</strong>
 						</small>
 					</div>
 				</div><!--end .menubar-scroll-panel-->

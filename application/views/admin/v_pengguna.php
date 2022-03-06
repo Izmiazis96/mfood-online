@@ -126,58 +126,58 @@
 			    </div>
 			    <form class="form-horizontal" role="form" method="post" action="<?php echo base_url().'admin/pengguna/simpan_pengguna'?>" enctype="multipart/form-data">
 			        <div class="modal-body">
-									<div class="form-group">
-										<label for="regular13" class="col-sm-3 control-label">Nama</label>
-										<div class="col-sm-8">
-											<input type="text" name="nama" class="form-control" id="regular13" required>
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="select13" class="col-sm-3 control-label">Jenis Kelamin</label>
-										<div class="col-sm-8">
-											<select id="select13" name="jenkel" class="form-control" required>
-												<option value="">&nbsp;</option>
-												<option value="L">Laki-Laki</option>
-												<option value="P">Perempuan</option>
-											</select>
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="regular13" class="col-sm-3 control-label">Username</label>
-										<div class="col-sm-8">
-											<input type="text" name="username" class="form-control" id="regular13" required>
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="password13" class="col-sm-3 control-label">Password</label>
-										<div class="col-sm-8">
-											<input type="password" name="password" class="form-control" id="password13" required>
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="password13" class="col-sm-3 control-label">Ulangi Password</label>
-										<div class="col-sm-8">
-											<input type="password" name="password2" class="form-control" id="password13" required>
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="regular13" class="col-sm-3 control-label">Email</label>
-										<div class="col-sm-8">
-											<input type="email" name="email" class="form-control" id="regular13" required>
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="regular13" class="col-sm-3 control-label">Kontak Person</label>
-										<div class="col-sm-8">
-											<input type="text" name="kontak" class="form-control" id="regular13" required>
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="regular13" class="col-sm-3 control-label">Photo</label>
-										<div class="col-sm-8">
-											<input type="file" name="filefoto" class="form-control" id="regular13">
-										</div>
-									</div>
+						<div class="form-group">
+							<label for="regular13" class="col-sm-3 control-label">Nama</label>
+							<div class="col-sm-8">
+								<input type="text" name="nama" class="form-control" id="regular13" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="select13" class="col-sm-3 control-label">Jenis Kelamin</label>
+							<div class="col-sm-8">
+								<select id="select13" name="jenkel" class="form-control" required>
+									<option value="">&nbsp;</option>
+									<option value="L">Laki-Laki</option>
+									<option value="P">Perempuan</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="regular13" class="col-sm-3 control-label">Username</label>
+							<div class="col-sm-8">
+								<input type="text" name="username" class="form-control" id="regular13" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="password13" class="col-sm-3 control-label">Password</label>
+							<div class="col-sm-8">
+								<input type="password" name="password" class="form-control" id="password13" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="password13" class="col-sm-3 control-label">Ulangi Password</label>
+							<div class="col-sm-8">
+								<input type="password" name="password2" class="form-control" id="password13" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="regular13" class="col-sm-3 control-label">Email</label>
+							<div class="col-sm-8">
+								<input type="email" name="email" class="form-control" id="regular13" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="regular13" class="col-sm-3 control-label">Kontak Person</label>
+							<div class="col-sm-8">
+								<input type="text" name="kontak" class="form-control" id="regular13" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="regular13" class="col-sm-3 control-label">Photo</label>
+							<div class="col-sm-8">
+								<input type="file" name="filefoto" class="form-control" id="regular13">
+							</div>
+						</div>
 									
 			        </div>
 			        <div class="modal-footer">
@@ -214,64 +214,64 @@
 			    </div>
 			    <form class="form-horizontal" role="form" method="post" action="<?php echo base_url().'admin/pengguna/update_pengguna'?>" enctype="multipart/form-data">
 			        <div class="modal-body">
-									<div class="form-group">
-										<label for="regular13" class="col-sm-3 control-label">Nama</label>
-										<div class="col-sm-8">
-											<input type="hidden" name="kode" value="<?php echo $id;?>">
-											<input type="text" name="nama" value="<?php echo $nama;?>" class="form-control" id="regular13" required>
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="select13" class="col-sm-3 control-label">Jenis Kelamin</label>
-										<div class="col-sm-8">
-											<select id="select13" name="jenkel" class="form-control" required>
-												<option value="">&nbsp;</option>
-												<?php if($jenis_kelamin=='L'):?>
-													<option value="L" selected>Laki-Laki</option>
-													<option value="P">Perempuan</option>
-												<?php else:?>
-													<option value="L">Laki-Laki</option>
-													<option value="P" selected>Perempuan</option>
-												<?php endif;?>
-											</select>
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="regular13" class="col-sm-3 control-label">Username</label>
-										<div class="col-sm-8">
-											<input type="text" name="username" value="<?php echo $username;?>" class="form-control" id="regular13" required>
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="password13" class="col-sm-3 control-label">Password</label>
-										<div class="col-sm-8">
-											<input type="password" name="password" class="form-control" id="password13">
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="password13" class="col-sm-3 control-label">Ulangi Password</label>
-										<div class="col-sm-8">
-											<input type="password" name="password2" class="form-control" id="password13">
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="regular13" class="col-sm-3 control-label">Email</label>
-										<div class="col-sm-8">
-											<input type="email" name="email" class="form-control" value="<?php echo $email;?>" id="regular13" required>
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="regular13" class="col-sm-3 control-label">Kontak Person</label>
-										<div class="col-sm-8">
-											<input type="text" name="kontak" class="form-control" value="<?php echo $nohp;?>" id="regular13" required>
-										</div>
-									</div>
-									<div class="form-group">
-										<label for="regular13" class="col-sm-3 control-label">Photo</label>
-										<div class="col-sm-8">
-											<input type="file" name="filefoto" class="form-control" id="regular13">
-										</div>
-									</div>
+						<div class="form-group">
+							<label for="regular13" class="col-sm-3 control-label">Nama</label>
+							<div class="col-sm-8">
+								<input type="hidden" name="kode" value="<?php echo $id;?>">
+								<input type="text" name="nama" value="<?php echo $nama;?>" class="form-control" id="regular13" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="select13" class="col-sm-3 control-label">Jenis Kelamin</label>
+							<div class="col-sm-8">
+								<select id="select13" name="jenkel" class="form-control" required>
+									<option value="">&nbsp;</option>
+									<?php if($jenis_kelamin=='L'):?>
+										<option value="L" selected>Laki-Laki</option>
+										<option value="P">Perempuan</option>
+									<?php else:?>
+										<option value="L">Laki-Laki</option>
+										<option value="P" selected>Perempuan</option>
+									<?php endif;?>
+								</select>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="regular13" class="col-sm-3 control-label">Username</label>
+							<div class="col-sm-8">
+								<input type="text" name="username" value="<?php echo $username;?>" class="form-control" id="regular13" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="password13" class="col-sm-3 control-label">Password</label>
+							<div class="col-sm-8">
+								<input type="password" name="password" class="form-control" id="password13">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="password13" class="col-sm-3 control-label">Ulangi Password</label>
+							<div class="col-sm-8">
+								<input type="password" name="password2" class="form-control" id="password13">
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="regular13" class="col-sm-3 control-label">Email</label>
+							<div class="col-sm-8">
+								<input type="email" name="email" class="form-control" value="<?php echo $email;?>" id="regular13" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="regular13" class="col-sm-3 control-label">Kontak Person</label>
+							<div class="col-sm-8">
+								<input type="text" name="kontak" class="form-control" value="<?php echo $nohp;?>" id="regular13" required>
+							</div>
+						</div>
+						<div class="form-group">
+							<label for="regular13" class="col-sm-3 control-label">Photo</label>
+							<div class="col-sm-8">
+								<input type="file" name="filefoto" class="form-control" id="regular13">
+							</div>
+						</div>
 									
 			        </div>
 			        <div class="modal-footer">
@@ -301,15 +301,15 @@
 			    </div>
 			    <form class="form-horizontal" role="form" method="post" action="<?php echo base_url().'admin/pengguna/hapus_pengguna'?>" enctype="multipart/form-data">
 			        <div class="modal-body">
-									<div class="form-group">
-										<label for="regular13" class="col-sm-2 control-label"></label>
-										<div class="col-sm-8">
-											<input type="hidden" name="kode" value="<?php echo $id;?>">
-											<input type="hidden" name="nama" value="<?php echo $nama;?>">
-											<input type="hidden" name="photo" value="<?= $photo; ?>">
-											<p>Apakah Anda yakin mau menghapus data <b><?php echo $nama;?></b> ?</p>
-										</div>
-									</div>
+						<div class="form-group">
+							<label for="regular13" class="col-sm-2 control-label"></label>
+							<div class="col-sm-8">
+								<input type="hidden" name="kode" value="<?php echo $id;?>">
+								<input type="hidden" name="nama" value="<?php echo $nama;?>">
+								<input type="hidden" name="photo" value="<?= $photo; ?>">
+								<p>Apakah Anda yakin mau menghapus data <b><?php echo $nama;?></b> ?</p>
+							</div>
+						</div>
 	
 			        </div>
 			        <div class="modal-footer">

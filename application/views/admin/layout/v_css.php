@@ -13,7 +13,16 @@
 		<link type="text/css" rel="stylesheet" href="<?php echo base_url().'assets/font-awesome/css/font-awesome.css'?>" />
 		<link type="text/css" rel="stylesheet" href="<?php echo base_url().'assets/css/materialadmin.css'?>" />
 		<link type="text/css" rel="stylesheet" href="<?php echo base_url().'assets/css/material-design-iconic-font.min.css'?>" />
+		<!-- BEGIN STYLESHEETS GLOBAL -->
+
+		<!-- BEGIN STYLESHEETS DATATABLE -->
 		<link type="text/css" rel="stylesheet" href="<?php echo base_url().'assets/css/DataTables/jquery.dataTables.css'?>" />
 		<link type="text/css" rel="stylesheet" href="<?php echo base_url().'assets/css/DataTables/extensions/dataTables.colVis.css'?>" />
 		<link type="text/css" rel="stylesheet" href="<?php echo base_url().'assets/css/DataTables/extensions/dataTables.tableTools.css'?>" />
-		<!-- END STYLESHEETS -->
+		<!-- END STYLESHEETS DATATABLE -->
+
+		<!-- BEGIN STYLESHEETS DASHBOARD -->
+		<link type="text/css" rel="stylesheet" href="<?php echo base_url().'assets/css/style-material.css'?>" />
+		<link type="text/css" rel="stylesheet" href="<?php echo base_url().'assets/css/rickshaw.css'?>" />
+		<link type="text/css" rel="stylesheet" href="<?php echo base_url().'assets/css/morris.core.css'?>" />
+		<!-- END STYLESHEETS DASHBOARD -->
